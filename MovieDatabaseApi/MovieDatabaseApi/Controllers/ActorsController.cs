@@ -11,11 +11,11 @@ using System.Reflection.Metadata.Ecma335;
 namespace MovieDatabaseApi.Controllers
 {
     [ApiController]
-    public class ActorsContoller : ControllerBase
+    public class ActorsController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public ActorsContoller(DataContext context)
+        public ActorsController(DataContext context)
         {
             _context = context;
         }

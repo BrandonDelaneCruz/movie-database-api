@@ -1,6 +1,6 @@
 ﻿namespace MovieDatabaseApi.Data.Entities
 {
-    public class Director
+    public class Producer
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
